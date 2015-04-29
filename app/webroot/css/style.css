@@ -1,0 +1,266 @@
+/* SVN FILE: $Id: style.css 426 2012-10-10 20:28:43Z caacuna $ */
+/**
+ * DESCRIPCION_CORTA
+ *
+ * DESCRIPCION_LARGA
+ *
+ * PHP versión 5
+ *
+ * WebMachine, Desarrollo Web <http://www.webmachine.cl/>
+ * Copyright 2010-2012, WebMachine Ltda.
+ * Dominica N° 165 - Recoleta
+ * Santiago, Chile
+ *
+ * @filesource
+ * @copyright    Copyright 2010-2012, WebMachine Ltda.
+ * @link         http://www.webmachine.cl WebMachine
+ * @package      minju
+ * @subpackage   minju.app.webroot.css
+ * @version      $Revision: 426 $
+ * @modifiedby   $LastChangedBy: caacuna $
+ * @lastmodified $Date: 2012-10-10 17:28:43 -0300 (mié, 10 oct 2012) $
+ */
+body,html {
+	font-family: Arial, sans-serif;
+	font-size: 85%;
+	color: #808080;
+}
+
+h1 {
+	margin: 0;
+}
+
+/* HEADER */
+
+#header {
+	/*position: relative;*/
+	/*height: 70px;*/
+}
+
+#header h1 {
+	margin: 0;
+	padding: 0;
+}
+
+/* TOP-MENU */
+
+#top-menu {
+	position: absolute;
+	top: 25px;
+	right: 2em;
+}
+
+#ThemeRoller {
+	position: absolute;
+	right: 200px;
+	top: 30px;
+}
+
+/* USUARIO ACTUAL */
+
+#header #current-user {
+	position: absolute;
+	top: 75px;
+	right: 100px;
+	font-weight: bold;
+}
+
+/* VERSION */
+
+#header #version {
+	position: absolute;
+	top: 75px;
+	right: 2em;
+}
+
+/* CONTENT */
+
+#content-login {
+	background-color: #fff;
+}
+
+#content {
+	background-color: #fff;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+/* FOOTER */
+
+#footer {
+	text-align: right;
+	height: 30px;
+	padding: 10px 10px 0 0;
+}
+
+#footer .cake-sql-log, .cake-debug, .cake-stack-trace {
+	text-align: left;
+	color: #808080;
+}
+
+/* LOGIN */
+
+#login {
+	margin: 20px auto;
+	width: 320px;
+}
+
+#login form {
+	text-align: left;
+	width: 290px;
+	margin-top: 10px;
+	padding:16px 8px 40px 8px;
+	font-weight:normal;
+	-moz-border-radius:11px;
+	-khtml-border-radius:11px;
+	-webkit-border-radius:11px;
+	border-radius:5px;
+	background:#fff;
+	border:1px solid #e5e5e5;
+	-moz-box-shadow:rgba(200,200,200,1) 0 4px 18px;
+	-webkit-box-shadow:rgba(200,200,200,1) 0 4px 18px;
+	-khtml-box-shadow:rgba(200,200,200,1) 0 4px 18px;
+	box-shadow:rgba(200,200,200,1) 0 4px 18px;
+}
+
+#login form div {
+	margin-bottom: 0;
+	padding: 0 0.5em;
+}
+
+#login form div.submit {
+	margin-top: 0;
+}
+
+#login form label {
+	text-align: left;
+	width: 100%;
+	color: #777777;
+	font: 13px "Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+}
+
+#login #UserUsername, #login #UserPassword {
+	background:none repeat scroll 0 0 #FBFBFB;
+	color:#555555;
+	font: 11px "Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+	font-weight:normal;
+	border:1px solid #E5E5E5;
+	font-size:24px;
+	margin-bottom:16px;
+	margin-right:6px;
+	margin-top:2px;
+	padding:3px;
+	width:97%;
+}
+
+#login div.submit {
+	margin-left: 0px;
+	float:right;
+}
+
+/* LEFT-MENU*/
+
+#accordion .submenu {
+	padding:0;
+}
+
+#accordion .submenu ul {
+	margin-top: 0;
+	padding 0;
+}
+
+#accordion .submenu li {
+	border-bottom:1px solid #808080;
+	padding-bottom:5px;
+}
+
+#accordion .submenu a {
+	text-decoration: none;
+}
+
+/* REPORTS */
+#reportform label {
+	float:left;
+	width:25%;
+	margin-right:0.5em;
+	padding-top:0.2em;
+	text-align:right;
+	font-weight:bold;
+}
+
+#userform label {
+	float:left;
+	width:25%;
+	margin-right:0.5em;
+	padding-top:0.2em;
+	text-align:right;
+	font-weight:bold;
+}
+
+/* Notices and Errors */
+
+div.error-message {
+	clear: both;
+	margin: 0;
+	color:#D8000C;
+	font-weight: bold;
+}
+#flashMessage {
+	margin-top:30px;
+}
+#authMessage, .info, .success, .warning, .error, .validation {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	text-align:left;
+	border: 1px solid;
+	margin: 10px 0px;
+	padding:10px 10px 10px 50px;
+	background-repeat: no-repeat;
+	background-position: 10px center;
+}
+.info {
+	color: #00529B;
+	background-color: #BDE5F8;
+	background-image: url('../img/icons/info.png');
+}
+#authMessage {
+	color: #9F6000;
+	background-color: #FEEFB3;
+	font-weight: bold;
+	background-image: url('../img/icons/warning.png');
+}
+.success {
+	color: #4F8A10;
+	background-color: #DFF2BF;
+	background-image:url('../img/icons/success.png');
+}
+.warning {
+	color: #9F6000;
+	background-color: #FEEFB3;
+	background-image: url('../img/icons/warning.png');
+}
+.error {
+	color: #D8000C;
+	background-color: #FFBABA;
+	background-image: url('../img/icons/error.png');
+}
+.validation {
+	color: #D63301;
+	background-color: #FFCCBA;
+	background-image: url('../img/icons/validation.png');
+}
+
+/* COMPLEMENTOS */
+.grid-links {
+	text-align: left;
+}
+
+.grid-links td {
+	vertical-align: top;
+}
+
+.navigation_top{
+    font-size: 14px;
+    
+}

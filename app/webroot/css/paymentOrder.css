@@ -1,0 +1,272 @@
+@CHARSET "ISO-8859-1";
+#ordenPagoContenido{
+	width:800px;
+}
+
+table{
+	text-align:center;
+}
+
+#imputTextDisableMin input{
+	background-color:#ccc;
+	font-size: 14px;
+    font-weight: bold;
+}
+
+
+#imputTextDisableBig input{
+	background-color:#ccc;
+	width:400px;
+    font-size: 14px;
+    font-weight: bold;	
+}
+
+.bloque_botones{
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+}
+
+.bloque_general{
+	border: 1px dotted #ccc;
+	margin: 0 0 10px 10px;
+	padding: 4px;
+}
+
+.bloque_general_dos{
+	border: 1px dotted #ccc;
+	margin: 0 0 10px 10px;
+	padding: 4px;
+}
+
+
+
+.bloque_general_dos table{
+	width:100%;
+	font-size: 12px;
+}
+
+.bloque_general_dos th{
+	font-family: Tahoma,Geneva,sans-serif;
+    font-size: 11px;
+}
+
+.bloque_general_dos tr{
+	vertical-align:top;
+}
+
+.bloque_general_dos .bloque_derecha{
+	border: 1px solid #ccc;
+    width: 400px;
+}
+
+.bloque_general_dos .bloque_izquierda{
+	border: 1px solid #ccc;
+    width: 300px;	
+}
+
+.etiqueta4{
+	color: #222222;
+    float: left;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 10px;
+    padding: 3px 0 0;
+    text-align: left;
+    width: 150px;
+}
+
+.entrada4{
+	display:block;
+}
+
+.titulo_bloque{
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.titulo_bloque span{
+	font-size: 16px;
+}
+
+#ordenPagoContenido label{
+	font-family:Tahoma, Geneva, sans-serif; 
+	font-size:11px; 
+	font-weight:bold;
+}
+
+#tabla_antecedentesPago{
+	text-align: left;
+    width: 100%;
+}
+
+/*POPUP*/
+#contenidoPopUp{
+    width:400px;
+    margin: 0 auto;
+}
+
+#contenidoPopUp span {
+	color: #222222;
+    float: left;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 10px;
+    padding: 3px 0 0;
+    text-align: left;
+    width: 150px;
+}
+
+#contenidoPopUp .tituloPopUp{
+	float: left;
+	 width: 150px;
+}
+
+#contenidoPopUp th{
+	font-size: 13px;
+	padding: 6px;
+	color: #222222;
+}
+
+#contenidoPopUp .input{
+	float:left;
+}
+
+#contenidoPopUp table{
+	width:100%;
+	
+}
+
+#contenidoPopUp .resultado{
+	width:400px;
+	margin: 0 auto;
+	border: 1px dotted #ccc;
+}
+
+#contenidoPopUp .resultado table{
+	width:100%;
+	text-align:center;
+}
+#contenidoPopUp .resultado th{
+    font-size: 11px;
+    font-weight: bold;
+
+}
+
+#contenidoPopUp .resultado td{
+    font-size: 9px;
+}
+
+.scroll{
+	width:300px;
+	height:100px;
+	overflow:auto;
+	margin: 0 auto;
+}
+.scroll_2{
+	width:400px;
+	height:100px;
+	overflow:auto;
+	margin: 0 auto;
+}
+
+#documentPageContenido{
+	margin: 0 auto;
+    width: 500px;
+
+}
+
+#documentPageContenido .tituloGeneral{
+	font-size: 21px;
+    font-weight: bold;
+    padding-bottom: 24px;
+    padding-top: 24px;
+}
+
+
+#contenidoPopUp label{
+    display: block;
+    float: left;
+    font-style: italic;
+    font-weight: bold;
+    text-align: left;
+    width: 200px;
+}
+
+#documentPageContenido .lista_desplegable_grande{
+	font:11px Arial,Helvetica,sans-serif;
+	width: 200px; 
+}
+
+#documentPageContenido .lista_desplegable_mediano{
+	font:11px Arial,Helvetica,sans-serif;
+	width: 150px; 
+}
+
+#mensajeError{
+	display:block;
+	widht:100%;
+}
+#documentPageContenido label.error2{
+	float: right; 
+	color: red; 
+	padding-left: .5em; 
+	vertical-align: top;
+}
+
+#documentPageContenidoDos{
+	width:100%
+}
+
+#documentPageContenido label{
+    display: block;
+    float: left;
+    width: 162px;
+}
+
+#mensaje_log{
+	border: 2px ridge #666666; 
+	height: 133px;
+    min-height: 105px;
+    overflow: auto;
+    width: 400px;
+    font-size: 14px;
+}
+
+#reingreso{
+    margin: 0 auto;
+    width: 300px;
+    height: 60px;
+}
+
+#reingreso .labelReingreso{
+	display: block;
+    float: left;
+    width: 110px;
+}
+
+#botonReingreso{
+    margin: 0 auto;
+    width: 300px;	
+    text-align: center;
+}
+
+#formaBuscarFecha{
+	float: left;
+    width: 306px;
+}
+
+#reingresoForm{
+    padding-top: 10px;
+}
+
+#editForm table{
+	text-align:left;
+}
+
+
+#formUnidadDemandate span{
+	display:block;
+	
+}

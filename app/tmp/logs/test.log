@@ -1,0 +1,1370 @@
+2013-12-27 18:12:18 Test: 2013
+2013-12-27 18:12:18 Test: 2013
+2013-12-27 18:12:40 Test: 2013
+2013-12-27 18:12:40 Test: 2013
+2013-12-27 18:13:31 Test: 2013
+2013-12-27 18:13:31 Test: 2013
+2013-12-27 18:13:32 Test: 2013
+2013-12-27 18:13:32 Test: 2013
+2013-12-27 18:13:32 Test: 2013
+2013-12-27 18:13:32 Test: 2013
+2013-12-27 18:13:32 Test: 2013
+2013-12-27 18:13:32 Test: 2013
+2013-12-27 18:13:32 Test: 2013
+2013-12-27 18:13:32 Test: 2013
+2013-12-27 18:13:35 Test: 2013
+2013-12-27 18:13:35 Test: 2013
+2013-12-27 18:14:53 Test: 2013
+2013-12-27 18:14:53 Test: 2013
+2013-12-30 11:43:25 Test: 2013
+2013-12-30 11:43:25 Test: 2013
+2013-12-30 17:09:03 Test: 2013
+2013-12-30 17:09:03 Test: 2013
+2013-12-30 17:09:03 Test: 2013
+2013-12-30 17:09:03 Test: 2013
+2013-12-30 17:09:03 Test: 2013
+2013-12-30 17:09:03 Test: 2013
+2013-12-30 17:09:03 Test: 2013
+2013-12-30 17:09:03 Test: 2013
+2013-12-30 17:09:03 Test: 2013
+2013-12-30 17:09:03 Test: 2013
+2014-01-14 15:38:04 Test: Array
+(
+    [InventoryAssetAllocation] => Array
+        (
+            [id] => 91
+            [is_current] => 1
+            [is_ses] => 1
+            [region_id] => 7
+            [city_id] => 4
+            [address_id] => 3
+            [floor_id] => 2
+            [office_id] => 3
+            [user_id] => 5
+            [inventory_asset_id] => 2743
+            [program_id] => 
+            [acta_id] => 37
+            [created] => 2014-01-14 15:33:46
+            [modified] => 2014-01-14 15:33:46
+        )
+
+    [Acta] => Array
+        (
+            [id] => 37
+            [type] => 1
+            [status] => 1
+            [folio_ses] => 37
+            [folio_sss] => 37
+            [is_ses] => 1
+            [assigned_id] => 1
+            [receive_id] => 5
+            [created] => 2014-01-14 15:33:46
+            [modified] => 2014-01-14 15:33:46
+        )
+
+    [InventoryAsset] => Array
+        (
+            [id] => 2743
+            [code] => 000000000002549
+            [detail] => 
+            [serial] => 
+            [original_price] => 574453
+            [status] => 1
+            [situation] => Nuevo
+            [index_sss] => 2549
+            [index_ses] => 2549
+            [is_ses] => 1
+            [life] => 
+            [residual_value] => 
+            [asset_id] => 16
+            [is_depreciate] => 1
+            [transaction_detail_id] => 58
+            [created] => 2014-01-14 15:32:08
+            [modified] => 2014-01-14 15:33:46
+        )
+
+    [User] => Array
+        (
+            [id] => 5
+            [rut] => 16451823-K
+            [username] => taty
+            [password] => 87b76ddcc2cf040b997ff6e88b6cf815af926071
+            [names] => TATIANA
+            [primary_last_name] => CUEVAS
+            [second_last_name] => MEZA
+            [email] => taty@hotmail.com
+            [role] => 4
+            [is_active] => 1
+            [is_ses] => 1
+            [theme] => 
+            [section_id] => 22
+            [department_id] => 23
+            [unit_id] => 24
+            [user_id] => 
+            [created] => 2013-12-10 17:05:26
+            [modified] => 2014-01-08 15:36:25
+        )
+
+    [Floor] => Array
+        (
+            [id] => 2
+            [number] => 3
+            [is_ses] => 1
+            [created] => 2013-12-20 11:57:01
+            [modified] => 2013-12-20 11:57:01
+            [address_id] => 3
+        )
+
+    [Office] => Array
+        (
+            [id] => 3
+            [number] => 360
+            [is_ses] => 1
+            [user_id] => 3
+            [created] => 2013-12-20 11:57:39
+            [modified] => 2013-12-20 13:48:06
+            [floor_id] => 2
+        )
+
+    [Region] => Array
+        (
+            [id] => 7
+            [name] => RM
+            [is_ses] => 1
+            [created] => 2013-12-20 11:55:42
+            [modified] => 2013-12-20 11:55:42
+        )
+
+    [City] => Array
+        (
+            [id] => 4
+            [name] => SANTIAGO
+            [is_ses] => 1
+            [created] => 2013-12-20 11:56:10
+            [modified] => 2013-12-20 11:56:10
+            [region_id] => 7
+        )
+
+    [Address] => Array
+        (
+            [id] => 3
+            [name] => AV. ESTADO # 2236
+            [is_ses] => 1
+            [created] => 2013-12-20 11:56:39
+            [modified] => 2013-12-20 11:56:39
+            [city_id] => 4
+        )
+
+    [InventoryAssetHistory] => Array
+        (
+            [id] => 2837
+            [type] => 1
+            [comment] => Asignación de bien
+            [user_id] => 1
+            [inventory_asset_id] => 2743
+            [inventory_asset_disposal_id] => 
+            [inventory_asset_allocation_id] => 91
+            [created] => 2014-01-14 15:33:46
+            [modified] => 2014-01-14 15:33:46
+        )
+
+)
+
+2014-01-14 15:38:05 Test: Array
+(
+    [InventoryAssetAllocation] => Array
+        (
+            [id] => 92
+            [is_current] => 1
+            [is_ses] => 1
+            [region_id] => 7
+            [city_id] => 4
+            [address_id] => 3
+            [floor_id] => 2
+            [office_id] => 3
+            [user_id] => 5
+            [inventory_asset_id] => 2741
+            [program_id] => 
+            [acta_id] => 37
+            [created] => 2014-01-14 15:33:46
+            [modified] => 2014-01-14 15:33:46
+        )
+
+    [Acta] => Array
+        (
+            [id] => 37
+            [type] => 1
+            [status] => 1
+            [folio_ses] => 37
+            [folio_sss] => 37
+            [is_ses] => 1
+            [assigned_id] => 1
+            [receive_id] => 5
+            [created] => 2014-01-14 15:33:46
+            [modified] => 2014-01-14 15:33:46
+        )
+
+    [InventoryAsset] => Array
+        (
+            [id] => 2741
+            [code] => 000000000002547
+            [detail] => 
+            [serial] => 
+            [original_price] => 574453
+            [status] => 1
+            [situation] => Nuevo
+            [index_sss] => 2547
+            [index_ses] => 2547
+            [is_ses] => 1
+            [life] => 
+            [residual_value] => 
+            [asset_id] => 16
+            [is_depreciate] => 1
+            [transaction_detail_id] => 58
+            [created] => 2014-01-14 15:32:08
+            [modified] => 2014-01-14 15:33:46
+        )
+
+    [User] => Array
+        (
+            [id] => 5
+            [rut] => 16451823-K
+            [username] => taty
+            [password] => 87b76ddcc2cf040b997ff6e88b6cf815af926071
+            [names] => TATIANA
+            [primary_last_name] => CUEVAS
+            [second_last_name] => MEZA
+            [email] => taty@hotmail.com
+            [role] => 4
+            [is_active] => 1
+            [is_ses] => 1
+            [theme] => 
+            [section_id] => 22
+            [department_id] => 23
+            [unit_id] => 24
+            [user_id] => 
+            [created] => 2013-12-10 17:05:26
+            [modified] => 2014-01-08 15:36:25
+        )
+
+    [Floor] => Array
+        (
+            [id] => 2
+            [number] => 3
+            [is_ses] => 1
+            [created] => 2013-12-20 11:57:01
+            [modified] => 2013-12-20 11:57:01
+            [address_id] => 3
+        )
+
+    [Office] => Array
+        (
+            [id] => 3
+            [number] => 360
+            [is_ses] => 1
+            [user_id] => 3
+            [created] => 2013-12-20 11:57:39
+            [modified] => 2013-12-20 13:48:06
+            [floor_id] => 2
+        )
+
+    [Region] => Array
+        (
+            [id] => 7
+            [name] => RM
+            [is_ses] => 1
+            [created] => 2013-12-20 11:55:42
+            [modified] => 2013-12-20 11:55:42
+        )
+
+    [City] => Array
+        (
+            [id] => 4
+            [name] => SANTIAGO
+            [is_ses] => 1
+            [created] => 2013-12-20 11:56:10
+            [modified] => 2013-12-20 11:56:10
+            [region_id] => 7
+        )
+
+    [Address] => Array
+        (
+            [id] => 3
+            [name] => AV. ESTADO # 2236
+            [is_ses] => 1
+            [created] => 2013-12-20 11:56:39
+            [modified] => 2013-12-20 11:56:39
+            [city_id] => 4
+        )
+
+    [InventoryAssetHistory] => Array
+        (
+            [id] => 2838
+            [type] => 1
+            [comment] => Asignación de bien
+            [user_id] => 1
+            [inventory_asset_id] => 2741
+            [inventory_asset_disposal_id] => 
+            [inventory_asset_allocation_id] => 92
+            [created] => 2014-01-14 15:33:46
+            [modified] => 2014-01-14 15:33:46
+        )
+
+)
+
+2014-01-14 15:38:05 Test: Array
+(
+    [InventoryAssetAllocation] => Array
+        (
+            [id] => 93
+            [is_current] => 1
+            [is_ses] => 1
+            [region_id] => 7
+            [city_id] => 4
+            [address_id] => 3
+            [floor_id] => 2
+            [office_id] => 3
+            [user_id] => 5
+            [inventory_asset_id] => 2738
+            [program_id] => 
+            [acta_id] => 37
+            [created] => 2014-01-14 15:33:46
+            [modified] => 2014-01-14 15:33:46
+        )
+
+    [Acta] => Array
+        (
+            [id] => 37
+            [type] => 1
+            [status] => 1
+            [folio_ses] => 37
+            [folio_sss] => 37
+            [is_ses] => 1
+            [assigned_id] => 1
+            [receive_id] => 5
+            [created] => 2014-01-14 15:33:46
+            [modified] => 2014-01-14 15:33:46
+        )
+
+    [InventoryAsset] => Array
+        (
+            [id] => 2738
+            [code] => 000000000002544
+            [detail] => 
+            [serial] => 
+            [original_price] => 574453
+            [status] => 1
+            [situation] => Nuevo
+            [index_sss] => 2544
+            [index_ses] => 2544
+            [is_ses] => 1
+            [life] => 
+            [residual_value] => 
+            [asset_id] => 16
+            [is_depreciate] => 1
+            [transaction_detail_id] => 58
+            [created] => 2014-01-14 15:32:08
+            [modified] => 2014-01-14 15:33:46
+        )
+
+    [User] => Array
+        (
+            [id] => 5
+            [rut] => 16451823-K
+            [username] => taty
+            [password] => 87b76ddcc2cf040b997ff6e88b6cf815af926071
+            [names] => TATIANA
+            [primary_last_name] => CUEVAS
+            [second_last_name] => MEZA
+            [email] => taty@hotmail.com
+            [role] => 4
+            [is_active] => 1
+            [is_ses] => 1
+            [theme] => 
+            [section_id] => 22
+            [department_id] => 23
+            [unit_id] => 24
+            [user_id] => 
+            [created] => 2013-12-10 17:05:26
+            [modified] => 2014-01-08 15:36:25
+        )
+
+    [Floor] => Array
+        (
+            [id] => 2
+            [number] => 3
+            [is_ses] => 1
+            [created] => 2013-12-20 11:57:01
+            [modified] => 2013-12-20 11:57:01
+            [address_id] => 3
+        )
+
+    [Office] => Array
+        (
+            [id] => 3
+            [number] => 360
+            [is_ses] => 1
+            [user_id] => 3
+            [created] => 2013-12-20 11:57:39
+            [modified] => 2013-12-20 13:48:06
+            [floor_id] => 2
+        )
+
+    [Region] => Array
+        (
+            [id] => 7
+            [name] => RM
+            [is_ses] => 1
+            [created] => 2013-12-20 11:55:42
+            [modified] => 2013-12-20 11:55:42
+        )
+
+    [City] => Array
+        (
+            [id] => 4
+            [name] => SANTIAGO
+            [is_ses] => 1
+            [created] => 2013-12-20 11:56:10
+            [modified] => 2013-12-20 11:56:10
+            [region_id] => 7
+        )
+
+    [Address] => Array
+        (
+            [id] => 3
+            [name] => AV. ESTADO # 2236
+            [is_ses] => 1
+            [created] => 2013-12-20 11:56:39
+            [modified] => 2013-12-20 11:56:39
+            [city_id] => 4
+        )
+
+    [InventoryAssetHistory] => Array
+        (
+            [id] => 2839
+            [type] => 1
+            [comment] => Asignación de bien
+            [user_id] => 1
+            [inventory_asset_id] => 2738
+            [inventory_asset_disposal_id] => 
+            [inventory_asset_allocation_id] => 93
+            [created] => 2014-01-14 15:33:46
+            [modified] => 2014-01-14 15:33:46
+        )
+
+)
+
+2014-01-14 15:38:05 Test: Array
+(
+    [InventoryAssetAllocation] => Array
+        (
+            [id] => 94
+            [is_current] => 1
+            [is_ses] => 1
+            [region_id] => 7
+            [city_id] => 4
+            [address_id] => 3
+            [floor_id] => 2
+            [office_id] => 3
+            [user_id] => 5
+            [inventory_asset_id] => 2731
+            [program_id] => 
+            [acta_id] => 37
+            [created] => 2014-01-14 15:33:46
+            [modified] => 2014-01-14 15:33:46
+        )
+
+    [Acta] => Array
+        (
+            [id] => 37
+            [type] => 1
+            [status] => 1
+            [folio_ses] => 37
+            [folio_sss] => 37
+            [is_ses] => 1
+            [assigned_id] => 1
+            [receive_id] => 5
+            [created] => 2014-01-14 15:33:46
+            [modified] => 2014-01-14 15:33:46
+        )
+
+    [InventoryAsset] => Array
+        (
+            [id] => 2731
+            [code] => 000000000002537
+            [detail] => 
+            [serial] => 
+            [original_price] => 15600
+            [status] => 1
+            [situation] => Nuevo
+            [index_sss] => 2537
+            [index_ses] => 2537
+            [is_ses] => 1
+            [life] => 
+            [residual_value] => 
+            [asset_id] => 13
+            [is_depreciate] => 1
+            [transaction_detail_id] => 57
+            [created] => 2014-01-08 21:26:11
+            [modified] => 2014-01-14 15:33:46
+        )
+
+    [User] => Array
+        (
+            [id] => 5
+            [rut] => 16451823-K
+            [username] => taty
+            [password] => 87b76ddcc2cf040b997ff6e88b6cf815af926071
+            [names] => TATIANA
+            [primary_last_name] => CUEVAS
+            [second_last_name] => MEZA
+            [email] => taty@hotmail.com
+            [role] => 4
+            [is_active] => 1
+            [is_ses] => 1
+            [theme] => 
+            [section_id] => 22
+            [department_id] => 23
+            [unit_id] => 24
+            [user_id] => 
+            [created] => 2013-12-10 17:05:26
+            [modified] => 2014-01-08 15:36:25
+        )
+
+    [Floor] => Array
+        (
+            [id] => 2
+            [number] => 3
+            [is_ses] => 1
+            [created] => 2013-12-20 11:57:01
+            [modified] => 2013-12-20 11:57:01
+            [address_id] => 3
+        )
+
+    [Office] => Array
+        (
+            [id] => 3
+            [number] => 360
+            [is_ses] => 1
+            [user_id] => 3
+            [created] => 2013-12-20 11:57:39
+            [modified] => 2013-12-20 13:48:06
+            [floor_id] => 2
+        )
+
+    [Region] => Array
+        (
+            [id] => 7
+            [name] => RM
+            [is_ses] => 1
+            [created] => 2013-12-20 11:55:42
+            [modified] => 2013-12-20 11:55:42
+        )
+
+    [City] => Array
+        (
+            [id] => 4
+            [name] => SANTIAGO
+            [is_ses] => 1
+            [created] => 2013-12-20 11:56:10
+            [modified] => 2013-12-20 11:56:10
+            [region_id] => 7
+        )
+
+    [Address] => Array
+        (
+            [id] => 3
+            [name] => AV. ESTADO # 2236
+            [is_ses] => 1
+            [created] => 2013-12-20 11:56:39
+            [modified] => 2013-12-20 11:56:39
+            [city_id] => 4
+        )
+
+    [InventoryAssetHistory] => Array
+        (
+            [id] => 2840
+            [type] => 1
+            [comment] => Asignación de bien
+            [user_id] => 1
+            [inventory_asset_id] => 2731
+            [inventory_asset_disposal_id] => 
+            [inventory_asset_allocation_id] => 94
+            [created] => 2014-01-14 15:33:46
+            [modified] => 2014-01-14 15:33:46
+        )
+
+)
+
+2014-10-02 16:46:07 Test: Array
+(
+    [InventoryAssetAllocation] => Array
+        (
+            [id] => 111
+            [is_current] => 1
+            [is_ses] => 1
+            [region_id] => 
+            [city_id] => 
+            [address_id] => 
+            [floor_id] => 
+            [office_id] => 
+            [user_id] => 6
+            [inventory_asset_id] => 6871
+            [program_id] => 
+            [acta_id] => 58
+            [created] => 2014-10-02 12:50:14
+            [modified] => 2014-10-02 12:50:14
+        )
+
+    [Acta] => Array
+        (
+            [id] => 58
+            [type] => 0
+            [status] => 1
+            [folio_ses] => 58
+            [folio_sss] => 58
+            [is_ses] => 1
+            [assigned_id] => 1
+            [receive_id] => 5
+            [created] => 2014-10-02 12:50:14
+            [modified] => 2014-10-02 12:50:14
+        )
+
+    [InventoryAsset] => Array
+        (
+            [id] => 6871
+            [code] => 000000000006052
+            [detail] => 
+            [serial] => 
+            [original_price] => 2700
+            [status] => 0
+            [situation] => Nuevo
+            [index_sss] => 6052
+            [index_ses] => 6052
+            [is_ses] => 1
+            [life] => 
+            [residual_value] => 
+            [asset_id] => 3
+            [is_depreciate] => 1
+            [transaction_detail_id] => 98
+            [created] => 2014-10-01 12:32:41
+            [modified] => 2014-10-02 12:50:14
+        )
+
+    [User] => Array
+        (
+            [id] => 6
+            [rut] => 16169407-k
+            [username] => taty2
+            [password] => 87b76ddcc2cf040b997ff6e88b6cf815af926071
+            [names] => jona
+            [primary_last_name] => rojas
+            [second_last_name] => rojas
+            [email] => 
+            [role] => 2
+            [is_active] => 1
+            [is_ses] => 1
+            [theme] => 
+            [section_id] => 22
+            [department_id] => 23
+            [unit_id] => 24
+            [user_id] => 
+            [created] => 2013-12-20 13:29:39
+            [modified] => 2013-12-20 16:46:39
+        )
+
+    [Floor] => Array
+        (
+            [id] => 
+            [number] => 
+            [is_ses] => 
+            [created] => 
+            [modified] => 
+            [address_id] => 
+        )
+
+    [Office] => Array
+        (
+            [id] => 
+            [number] => 
+            [is_ses] => 
+            [user_id] => 
+            [created] => 
+            [modified] => 
+            [floor_id] => 
+        )
+
+    [Region] => Array
+        (
+            [id] => 
+            [name] => 
+            [is_ses] => 
+            [created] => 
+            [modified] => 
+        )
+
+    [City] => Array
+        (
+            [id] => 
+            [name] => 
+            [is_ses] => 
+            [created] => 
+            [modified] => 
+            [region_id] => 
+        )
+
+    [Address] => Array
+        (
+            [id] => 
+            [name] => 
+            [is_ses] => 
+            [created] => 
+            [modified] => 
+            [city_id] => 
+        )
+
+    [InventoryAssetHistory] => Array
+        (
+            [id] => 6994
+            [type] => 3
+            [comment] => Liberación de bien
+            [user_id] => 1
+            [inventory_asset_id] => 6871
+            [inventory_asset_disposal_id] => 
+            [inventory_asset_allocation_id] => 111
+            [created] => 2014-10-02 12:50:14
+            [modified] => 2014-10-02 12:50:14
+        )
+
+)
+
+2014-11-05 15:55:28 Test: Array
+(
+    [InventoryAssetAllocation] => Array
+        (
+            [id] => 122
+            [is_current] => 1
+            [is_ses] => 1
+            [region_id] => 7
+            [city_id] => 4
+            [address_id] => 3
+            [floor_id] => 2
+            [office_id] => 3
+            [user_id] => 5
+            [inventory_asset_id] => 6925
+            [program_id] => 
+            [acta_id] => 66
+            [created] => 2014-11-05 15:43:26
+            [modified] => 2014-11-05 15:43:26
+        )
+
+    [Acta] => Array
+        (
+            [id] => 66
+            [type] => 1
+            [status] => 1
+            [folio_ses] => 66
+            [folio_sss] => 66
+            [is_ses] => 1
+            [assigned_id] => 1
+            [receive_id] => 5
+            [created] => 2014-11-05 15:43:26
+            [modified] => 2014-11-05 15:43:26
+        )
+
+    [InventoryAsset] => Array
+        (
+            [id] => 6925
+            [code] => 000000000006106
+            [detail] => 
+            [serial] => 
+            [original_price] => 18400
+            [status] => 1
+            [situation] => Nuevo
+            [index_sss] => 6106
+            [index_ses] => 6106
+            [is_ses] => 1
+            [life] => 
+            [residual_value] => 
+            [asset_id] => 1
+            [is_depreciate] => 1
+            [transaction_detail_id] => 131
+            [created] => 2014-11-05 15:39:09
+            [modified] => 2014-11-05 15:43:26
+        )
+
+    [User] => Array
+        (
+            [id] => 5
+            [rut] => 16451823-K
+            [username] => taty
+            [password] => 87b76ddcc2cf040b997ff6e88b6cf815af926071
+            [names] => TATIANA
+            [primary_last_name] => CUEVAS
+            [second_last_name] => MEZA
+            [email] => taty@hotmail.com
+            [role] => 4
+            [is_active] => 1
+            [is_ses] => 1
+            [theme] => 
+            [section_id] => 22
+            [department_id] => 23
+            [unit_id] => 24
+            [user_id] => 
+            [created] => 2013-12-10 17:05:26
+            [modified] => 2014-01-08 15:36:25
+        )
+
+    [Floor] => Array
+        (
+            [id] => 2
+            [number] => 3
+            [is_ses] => 1
+            [created] => 2013-12-20 11:57:01
+            [modified] => 2013-12-20 11:57:01
+            [address_id] => 3
+        )
+
+    [Office] => Array
+        (
+            [id] => 3
+            [number] => 360
+            [is_ses] => 1
+            [user_id] => 3
+            [created] => 2013-12-20 11:57:39
+            [modified] => 2013-12-20 13:48:06
+            [floor_id] => 2
+        )
+
+    [Region] => Array
+        (
+            [id] => 7
+            [name] => RM
+            [is_ses] => 1
+            [created] => 2013-12-20 11:55:42
+            [modified] => 2013-12-20 11:55:42
+        )
+
+    [City] => Array
+        (
+            [id] => 4
+            [name] => SANTIAGO
+            [is_ses] => 1
+            [created] => 2013-12-20 11:56:10
+            [modified] => 2013-12-20 11:56:10
+            [region_id] => 7
+        )
+
+    [Address] => Array
+        (
+            [id] => 3
+            [name] => AV. ESTADO # 2236
+            [is_ses] => 1
+            [created] => 2013-12-20 11:56:39
+            [modified] => 2013-12-20 11:56:39
+            [city_id] => 4
+        )
+
+    [InventoryAssetHistory] => Array
+        (
+            [id] => 7059
+            [type] => 1
+            [comment] => Asignación de bien
+            [user_id] => 1
+            [inventory_asset_id] => 6925
+            [inventory_asset_disposal_id] => 
+            [inventory_asset_allocation_id] => 122
+            [created] => 2014-11-05 15:43:26
+            [modified] => 2014-11-05 15:43:26
+        )
+
+)
+
+2014-11-05 15:55:28 Test: Array
+(
+    [InventoryAssetAllocation] => Array
+        (
+            [id] => 123
+            [is_current] => 1
+            [is_ses] => 1
+            [region_id] => 7
+            [city_id] => 4
+            [address_id] => 3
+            [floor_id] => 2
+            [office_id] => 3
+            [user_id] => 5
+            [inventory_asset_id] => 6924
+            [program_id] => 
+            [acta_id] => 66
+            [created] => 2014-11-05 15:43:26
+            [modified] => 2014-11-05 15:43:26
+        )
+
+    [Acta] => Array
+        (
+            [id] => 66
+            [type] => 1
+            [status] => 1
+            [folio_ses] => 66
+            [folio_sss] => 66
+            [is_ses] => 1
+            [assigned_id] => 1
+            [receive_id] => 5
+            [created] => 2014-11-05 15:43:26
+            [modified] => 2014-11-05 15:43:26
+        )
+
+    [InventoryAsset] => Array
+        (
+            [id] => 6924
+            [code] => 000000000006105
+            [detail] => 
+            [serial] => 
+            [original_price] => 18400
+            [status] => 1
+            [situation] => Nuevo
+            [index_sss] => 6105
+            [index_ses] => 6105
+            [is_ses] => 1
+            [life] => 
+            [residual_value] => 
+            [asset_id] => 1
+            [is_depreciate] => 1
+            [transaction_detail_id] => 131
+            [created] => 2014-11-05 15:39:09
+            [modified] => 2014-11-05 15:43:26
+        )
+
+    [User] => Array
+        (
+            [id] => 5
+            [rut] => 16451823-K
+            [username] => taty
+            [password] => 87b76ddcc2cf040b997ff6e88b6cf815af926071
+            [names] => TATIANA
+            [primary_last_name] => CUEVAS
+            [second_last_name] => MEZA
+            [email] => taty@hotmail.com
+            [role] => 4
+            [is_active] => 1
+            [is_ses] => 1
+            [theme] => 
+            [section_id] => 22
+            [department_id] => 23
+            [unit_id] => 24
+            [user_id] => 
+            [created] => 2013-12-10 17:05:26
+            [modified] => 2014-01-08 15:36:25
+        )
+
+    [Floor] => Array
+        (
+            [id] => 2
+            [number] => 3
+            [is_ses] => 1
+            [created] => 2013-12-20 11:57:01
+            [modified] => 2013-12-20 11:57:01
+            [address_id] => 3
+        )
+
+    [Office] => Array
+        (
+            [id] => 3
+            [number] => 360
+            [is_ses] => 1
+            [user_id] => 3
+            [created] => 2013-12-20 11:57:39
+            [modified] => 2013-12-20 13:48:06
+            [floor_id] => 2
+        )
+
+    [Region] => Array
+        (
+            [id] => 7
+            [name] => RM
+            [is_ses] => 1
+            [created] => 2013-12-20 11:55:42
+            [modified] => 2013-12-20 11:55:42
+        )
+
+    [City] => Array
+        (
+            [id] => 4
+            [name] => SANTIAGO
+            [is_ses] => 1
+            [created] => 2013-12-20 11:56:10
+            [modified] => 2013-12-20 11:56:10
+            [region_id] => 7
+        )
+
+    [Address] => Array
+        (
+            [id] => 3
+            [name] => AV. ESTADO # 2236
+            [is_ses] => 1
+            [created] => 2013-12-20 11:56:39
+            [modified] => 2013-12-20 11:56:39
+            [city_id] => 4
+        )
+
+    [InventoryAssetHistory] => Array
+        (
+            [id] => 7060
+            [type] => 1
+            [comment] => Asignación de bien
+            [user_id] => 1
+            [inventory_asset_id] => 6924
+            [inventory_asset_disposal_id] => 
+            [inventory_asset_allocation_id] => 123
+            [created] => 2014-11-05 15:43:26
+            [modified] => 2014-11-05 15:43:26
+        )
+
+)
+
+2014-11-11 16:56:56 Test: Array
+(
+    [InventoryAssetAllocation] => Array
+        (
+            [id] => 145
+            [is_current] => 1
+            [is_ses] => 0
+            [region_id] => 8
+            [city_id] => 5
+            [address_id] => 6
+            [floor_id] => 3
+            [office_id] => 4
+            [user_id] => 18
+            [inventory_asset_id] => 6941
+            [program_id] => 3
+            [acta_id] => 75
+            [created] => 2014-11-11 16:54:01
+            [modified] => 2014-11-11 16:54:01
+        )
+
+    [Acta] => Array
+        (
+            [id] => 75
+            [type] => 1
+            [status] => 1
+            [folio_ses] => 8
+            [folio_sss] => 8
+            [is_ses] => 0
+            [assigned_id] => 22
+            [receive_id] => 18
+            [created] => 2014-11-11 16:54:01
+            [modified] => 2014-11-11 16:54:01
+        )
+
+    [InventoryAsset] => Array
+        (
+            [id] => 6941
+            [code] => 000000000000023
+            [detail] => 
+            [serial] => 
+            [original_price] => 10000
+            [status] => 1
+            [situation] => Nuevo
+            [index_sss] => 23
+            [index_ses] => 23
+            [is_ses] => 0
+            [life] => 
+            [residual_value] => 
+            [asset_id] => 4
+            [is_depreciate] => 1
+            [transaction_detail_id] => 134
+            [created] => 2014-11-11 16:42:54
+            [modified] => 2014-11-11 16:54:01
+        )
+
+    [User] => Array
+        (
+            [id] => 18
+            [rut] => 17455212-6
+            [username] => user_valpo
+            [password] => 
+            [names] => Javier Eduardo
+            [primary_last_name] => Manquill2014-12-10 10:27:14 Test: Array
+(
+    [InventoryAssetAllocation] => Array
+        (
+            [id] => 153
+            [is_current] => 1
+            [is_ses] => 0
+            [region_id] => 8
+            [city_id] => 5
+            [address_id] => 6
+            [floor_id] => 3
+            [office_id] => 4
+            [user_id] => 19
+            [inventory_asset_id] => 6945
+            [program_id] => 3
+            [acta_id] => 79
+            [created] => 2014-11-11 17:31:37
+            [modified] => 2014-11-11 17:31:37
+        )
+
+    [Acta] => Array
+        (
+            [id] => 79
+            [type] => 1
+            [status] => 1
+            [folio_ses] => 12
+            [folio_sss] => 12
+            [is_ses] => 0
+            [assigned_id] => 22
+            [receive_id] => 19
+            [created] => 2014-11-11 17:31:37
+            [modified] => 2014-11-11 17:31:37
+        )
+
+    [InventoryAsset] => Array
+        (
+            [id] => 6945
+            [code] => 000000000000027
+            [detail] => 
+            [serial] => 
+            [original_price] => 40000
+            [status] => 1
+            [situation] => Nuevo
+            [index_sss] => 27
+            [index_ses] => 27
+            [is_ses] => 0
+            [life] => 10
+            [residual_value] => 1
+            [asset_id] => 21
+            [is_depreciate] => 1
+            [transaction_detail_id] => 135
+            [created] => 2014-11-11 17:14:47
+            [modified] => 2014-11-11 17:31:37
+        )
+
+    [User] => Array
+        (
+            [id] => 19
+            [rut] => 17455212-6
+            [username] => user_valpo2
+            [password] => 
+            [names] => Roberto Fernando
+            [primary_last_name] => Zuniga
+            [second_last_name] => Zuniga
+            [email] => 
+            [role] => 4
+            [is_active] => 1
+            [is_ses] => 0
+            [theme] => 
+            [section_id] => 
+            [department_id] => 
+            [unit_id] => 
+            [user_id] => 
+            [created] => 
+            [modified] => 
+        )
+
+    [Floor] => Array
+        (
+            [id] => 3
+            [number] => 4
+            [is_ses] => 0
+            [created] => 2014-11-10 16:13:55
+            [modified] => 2014-11-10 16:13:55
+            [address_id] => 6
+        )
+
+    [Office] => Array
+        (
+            [id] => 4
+            [number] => 419
+            [is_ses] => 0
+            [user_id] => 17
+            [created] => 2014-11-10 16:56:18
+            [modified] => 2014-11-10 16:56:18
+            [floor_id] => 3
+        )
+
+    [Region] => Array
+        (
+            [id] => 8
+            [name] => RM
+            [is_ses] => 0
+            [created] => 2014-11-10 16:08:50
+            [modified] => 2014-11-10 16:08:50
+        )
+
+    [City] => Array
+        (
+            [id] => 5
+            [name] => Santiago
+            [is_ses] => 0
+            [created] => 2014-11-10 16:09:00
+            [modified] => 2014-11-10 16:09:00
+            [region_id] => 8
+        )
+
+    [Address] => Array
+        (
+            [id] => 6
+            [name] => ahumada 48
+            [is_ses] => 0
+            [created] => 2014-11-10 16:11:17
+            [modified] => 2014-11-10 16:11:17
+            [city_id] => 5
+        )
+
+    [InventoryAssetHistory] => Array
+        (
+            [id] => 7115
+            [type] => 1
+            [comment] => Asignación de bien
+            [user_id] => 22
+            [inventory_asset_id] => 6945
+            [inventory_asset_disposal_id] => 
+            [inventory_asset_allocation_id] => 153
+            [created] => 2014-11-11 17:31:37
+            [modified] => 2014-11-11 17:31:37
+        )
+
+)
+
+2014-12-10 10:27:16 Test: Array
+(
+    [InventoryAssetAllocation] => Array
+        (
+            [id] => 154
+            [is_current] => 1
+            [is_ses] => 0
+            [region_id] => 8
+            [city_id] => 5
+            [address_id] => 6
+            [floor_id] => 3
+            [office_id] => 4
+            [user_id] => 19
+            [inventory_asset_id] => 238
+            [program_id] => 3
+            [acta_id] => 79
+            [created] => 2014-11-11 17:31:38
+            [modified] => 2014-11-11 17:31:38
+        )
+
+    [Acta] => Array
+        (
+            [id] => 79
+            [type] => 1
+            [status] => 1
+            [folio_ses] => 12
+            [folio_sss] => 12
+            [is_ses] => 0
+            [assigned_id] => 22
+            [receive_id] => 19
+            [created] => 2014-11-11 17:31:37
+            [modified] => 2014-11-11 17:31:37
+        )
+
+    [InventoryAsset] => Array
+        (
+            [id] => 238
+            [code] => 000000000000008
+            [detail] => 
+            [serial] => 
+            [original_price] => 102
+            [status] => 1
+            [situation] => Nuevo
+            [index_sss] => 8
+            [index_ses] => 8
+            [is_ses] => 0
+            [life] => 10
+            [residual_value] => 1
+            [asset_id] => 4
+            [is_depreciate] => 1
+            [transaction_detail_id] => 9
+            [created] => 2013-04-10 00:00:00
+            [modified] => 2014-11-11 17:31:38
+        )
+
+    [User] => Array
+        (
+            [id] => 19
+            [rut] => 17455212-6
+            [username] => user_valpo2
+            [password] => 
+            [names] => Roberto Fernando
+            [primary_last_name] => Zuniga
+            [second_last_name] => Zuniga
+            [email] => 
+            [role] => 4
+            [is_active] => 1
+            [is_ses] => 0
+            [theme] => 
+            [section_id] => 
+            [department_id] => 
+            [unit_id] => 
+            [user_id] => 
+            [created] => 
+            [modified] => 
+        )
+
+    [Floor] => Array
+        (
+            [id] => 3
+            [number] => 4
+            [is_ses] => 0
+            [created] => 2014-11-10 16:13:55
+            [modified] => 2014-11-10 16:13:55
+            [address_id] => 6
+        )
+
+    [Office] => Array
+        (
+            [id] => 4
+            [number] => 419
+            [is_ses] => 0
+            [user_id] => 17
+            [created] => 2014-11-10 16:56:18
+            [modified] => 2014-11-10 16:56:18
+            [floor_id] => 3
+        )
+
+    [Region] => Array
+        (
+            [id] => 8
+            [name] => RM
+            [is_ses] => 0
+            [created] => 2014-11-10 16:08:50
+            [modified] => 2014-11-10 16:08:50
+        )
+
+    [City] => Array
+        (
+            [id] => 5
+            [name] => Santiago
+            [is_ses] => 0
+            [created] => 2014-11-10 16:09:00
+            [modified] => 2014-11-10 16:09:00
+            [region_id] => 8
+        )
+
+    [Address] => Array
+        (
+            [id] => 6
+            [name] => ahumada 48
+            [is_ses] => 0
+            [created] => 2014-11-10 16:11:17
+            [modified] => 2014-11-10 16:11:17
+            [city_id] => 5
+        )
+
+    [InventoryAssetHistory] => Array
+        (
+            [id] => 7116
+            [type] => 1
+            [comment] => Asignación de bien
+            [user_id] => 22
+            [inventory_asset_id] => 238
+            [inventory_asset_disposal_id] => 
+            [inventory_asset_allocation_id] => 154
+            [created] => 2014-11-11 17:31:38
+            [modified] => 2014-11-11 17:31:38
+        )
+
+)
+

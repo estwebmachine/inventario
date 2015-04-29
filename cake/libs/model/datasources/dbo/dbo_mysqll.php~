@@ -1,0 +1,10 @@
+<?php
+App::import('Core', array('Model', 'datasource', 'dbosource', 'dbomysql'));
+
+class DboMysqll extends DboMysql {
+    function _execute($sql) {
+        $this->log($sql,'debug');
+        return parent::_execute($sql);
+    }
+}
+?>
